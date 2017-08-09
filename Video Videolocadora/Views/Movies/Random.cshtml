@@ -1,0 +1,13 @@
+﻿@model Video_Videolocadora.Models.Movie
+@{
+    ViewBag.Title = "Random";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Teste</h2>
+
+@{ foreach(string c in Model.chingamentos) {
+       <h2>@c</h2><br>
+   }
+}
+
